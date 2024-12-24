@@ -53,10 +53,15 @@ nav .logo i{
     font-size: 25px;
     color: #ffffff;     
 }
+nav .logo{
+    width: 30%;
+}
 .logo .search{
     margin-left: 10px;
     /* background-color: red; */
     position: relative;
+    flex: 1  1 auto;
+    
 }
 .logo .search span{   
     position: absolute;
@@ -74,8 +79,8 @@ nav .logo i{
     background-color: #83848434;
     border-radius: 5px;
     font-size: 15px;
-    width: 18rem;
-    display: inline-block;
+    width: 100%;
+    display: block;
     padding: 10px 10px 10px 30px;    
     transition: all 0.4s ease;
 }
